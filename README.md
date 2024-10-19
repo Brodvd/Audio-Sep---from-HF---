@@ -15,7 +15,7 @@ Install the dependences (I used Python 3.10, but I think is the same):
 pip install -r requirements.txt 
 ```
 
-Download the checkpoints in the folder  `/checkpoint` from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint)
+Create the folder `/checkpoint` and download the checkpoint in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint)
 ## Using
 ### For the pipiline
 * run the file  `pipiline.py`  changing the files path
