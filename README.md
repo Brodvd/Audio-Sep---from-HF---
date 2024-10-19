@@ -17,8 +17,13 @@ pip install -r requirements.txt
 
 Download the checkpoints in the folder  `/checkpoint` from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint)
 ## Using
-* execute the pipiline  `pipiline.py`  changing the file_path
-* the file input should be in 32000 KHz
-* the file output will be in mono format
+### For the pipiline
+* run the file  `pipiline.py`  changing the files_path
+  * the file input should be in 32000 KHz
+  * the file output will be in mono format
+### Demo Gradio
+* run the file  `app.py`
+* copy the link that will be appear in the debug on a browser
+* use the model online
 ## My personal valutation
 ## Conclusion
