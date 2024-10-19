@@ -27,3 +27,4 @@ Create the folder `/checkpoint` and download the checkpoint in the folder from [
 * use the model online
 ## My personal valutation
 ## Conclusion
+This model seems work with easy mixiture or also like a "denoiser", because it don't make destortion.
