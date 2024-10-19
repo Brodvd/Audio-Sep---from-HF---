@@ -19,7 +19,7 @@ Create the folder `/checkpoint` and download the checkpoint in the folder from [
 ## Using
 ### For the pipiline
 * run the file  `pipiline.py`  changing the files path
-  * the file input should be in 32000 KHz
+  * the file input should be in 32000 KHz, format  `.wav`
   * the file output will be in mono format
 ### Demo Gradio
 * run the file  `app.py`
