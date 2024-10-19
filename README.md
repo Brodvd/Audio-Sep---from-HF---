@@ -1,7 +1,7 @@
 # Audio-Sep-from-Huggin-Face-
 ## Separate "Anything" You Describe
 
-# NOTE: This is an anofficial implementation of Audio Sep, but this work without Miniconda :)
+# NOTE: This is an anofficial implementation of [Audio Sep](https://github.com/Audio-AGI/AudioSep), but this work without Miniconda :)
 
 ![results](https://github.com/user-attachments/assets/b4b82f04-8cbe-4ddb-a45e-3cdcba4d74a3)
 
