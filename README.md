@@ -26,7 +26,7 @@ NOTE: this model use lot of memory of the computer, so for the old laptop like m
 ### Demo Gradio
 * run the file  `app.py`
 * copy the link that will be appear in the debug on a browser
-* use the model online
+* use the model online (like Huggin Face)
 ## My personal valutation
 ### Description of the model
 Audio Sep is a big model for the separation audio with natural language queries :
