@@ -31,7 +31,11 @@ Audio Sep is a big model for the separation audio with natural language queries 
 
 ![image](https://github.com/user-attachments/assets/f383bf96-5c91-4fd7-9e2e-4be340eb5f47)
 
-The model has two checkpoint, one for the text query and the other for the suorce separation.
+The model has two checkpoint, one for the text query and the other for the suorce separation, so the interface will be like this:
+
+![image](https://github.com/user-attachments/assets/06bd0faf-d5d1-4628-ab78-d7845d78e2d5)
+
+
 ### What is the quality of the output
 ## Conclusion
 This model seems work with easy mixiture or also like a "denoiser", because it don't make destortion.
