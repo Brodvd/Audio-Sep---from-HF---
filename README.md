@@ -26,5 +26,12 @@ Create the folder `/checkpoint` and download the checkpoint in the folder from [
 * copy the link that will be appear in the debug on a browser
 * use the model online
 ## My personal valutation
+### Description of the model
+Audio Sep is a big model for the separation audio with natural language queries :
+
+![image](https://github.com/user-attachments/assets/f383bf96-5c91-4fd7-9e2e-4be340eb5f47)
+
+The model has two checkpoint, one for the text query and the other for the suorce separation.
+### What is the quality of the output
 ## Conclusion
 This model seems work with easy mixiture or also like a "denoiser", because it don't make destortion.
