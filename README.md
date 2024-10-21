@@ -14,7 +14,7 @@ and clone the repository:
 ```shell
 git clone https://github.com/Brodvd/Audio-Sep---from-Huggin-Face---.git
 ```
-Install the dependences (I used Python 3.10, but I think is the same):
+Install the dependences in the file `requirements.txt`  (I used Python 3.10, but I think is the same):
 ```shell
 pip install -r requirements.txt 
 ```
