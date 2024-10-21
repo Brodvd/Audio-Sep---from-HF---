@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Create the folder `/checkpoint` and download the checkpoint in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint)
 ## Using
 ### For the pipiline
-* run the file  `pipiline.py`  changing the files path
+* run the file  `pipiline.py`  changing the files path and the text query
   * the file input should be in 32000 KHz, format  `.wav`
   * the file output will be in mono format
 
