@@ -40,7 +40,13 @@ Audio Sep is a big model for the separation audio with natural language queries 
 The model has two checkpoint, one for the text query and the other for the suorce separation, the first in  `.pt` and the second in  `.ckpt` .
 ### Discussion about the quality of the output
 #### Using for songs and soundtrack (Voice and instruments)
-I tested Audio Sep in a lot of cases even the same audio and I found myself in front of a really particular model. I included in my evaluation both songs and soundtracks with reverbs and other effects while trying to understand how the structure of the text query works best. So I tried to work a song with the usual stems (vocals, drums, bass, guitar) and typing "vocals" what I got was a bad result even if the voice unlike the other instruments remained unchanged, indeed emphasized. Then I tried on the same track to separate the guitar and he separated it very well. I then went to the soundtracks, I tested a track with percussion, violins and other things, I typed "percussion" and I did not get a clear separation from the other suorces but the percussion remained similar; instead I tried with the same track to type "piano" and had better results on the percussion instrument. then I separated also tracks simpler with a bell and violins and typing "bell" did a great job. Finally I tried to separate the first seconds of "A Fistful of Dollars" and both the guitar and the whistle were separated very effectively.
+I tested Audio Sep in a lot of cases even the same audio and I found myself in front of a really particular model. I included in my evaluation both songs and soundtracks with reverbs and other effects while trying to understand how the structure of the text query works best. 
+
+So I tried to work a song with the usual stems (vocals, drums, bass, guitar) and typing "vocals" what I got was a bad result even if the voice unlike the other instruments remained unchanged, indeed emphasized. Then I tried on the same track to separate the guitar and he separated it very well. 
+
+I then went to the soundtracks, I tested a track with percussion, violins and other things, I typed "percussion" and I did not get a clear separation from the other suorces but the percussion remained similar; instead I tried with the same track to type "piano" and had better results on the percussion instrument. 
+Then I separated also tracks simpler with a bell and violins and typing "bell" did a great job. 
+Finally I tried to separate the first seconds of "A Fistful of Dollars" and both the guitar and the whistle were separated very effectively.
 #### Using for ambient sounds
 #### contextualization
 ## Conclusion
