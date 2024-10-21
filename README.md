@@ -6,7 +6,11 @@ This work is be take from [Audio Sep](https://github.com/Audio-AGI/AudioSep) and
 ![results](https://github.com/user-attachments/assets/b4b82f04-8cbe-4ddb-a45e-3cdcba4d74a3)
 
 ## Setup
-Clone the repository:
+Go to command prompt, navigate like this:
+```shell
+cd "documents"
+```
+and clone the repository:
 ```shell
 git clone https://github.com/Brodvd/Audio-Sep---from-Huggin-Face---.git
 ```
