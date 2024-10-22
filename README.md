@@ -26,7 +26,12 @@ Create the folder `/checkpoint` and download the checkpoint in the folder from [
   * the file input should be in 32000 KHz, format  `.wav`
   * the file output will be in mono format
 
-NOTE: this model use lot of memory of the computer, so for the old laptop like me if you give a input file > 1 minute it won't work.
+NOTE: this model use lot of memory of the computer, so for the old laptop like me (Windows 10 Home) if you give a input file > 1 it will work only with the chunk-based inference that have a few less quality:
+
+```shell
+inference(model, audio_file, text, output_file, device, use_chunk=True)
+```
+
 ### Demo Gradio
 * run the file  `app.py`
 * copy the link that will be appear in the debug on a browser
