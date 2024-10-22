@@ -48,6 +48,5 @@ I then went to the soundtracks, I tested a track with percussion, violins and ot
 Then I separated also tracks simpler with a bell and violins and typing "bell" did a great job. 
 Finally I tried to separate the first seconds of "A Fistful of Dollars" and both the guitar and the whistle were separated very effectively.
 #### Using for ambient sounds
-#### contextualization
 ## Conclusion
 This model seems work with easy mixiture or also like a "denoiser", because it don't make destortion.
