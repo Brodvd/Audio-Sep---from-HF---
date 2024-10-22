@@ -19,7 +19,7 @@ Install the dependences in the file `requirements.txt`  (I used Python 3.10, but
 pip install -r requirements.txt 
 ```
 
-Create the folder `/checkpoint` and download the checkpoint in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint)
+Create the folder `/checkpoint` and download the checkpoint in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint).
 ## Using
 ### For the pipiline
 * run the file  `pipiline.py`  changing the files path and the text query
@@ -36,6 +36,7 @@ inference(model, audio_file, text, output_file, device, use_chunk=True)
 * run the file  `app.py`
 * copy the link that will be appear in the debug on a browser
 * use the model online (like Huggin Face)
+Obviously the same of the chunk-based inference if you want to have more speed.
 ## My personal valutation
 ### Description of the model
 Audio Sep is a big model for the separation audio with natural language queries :
