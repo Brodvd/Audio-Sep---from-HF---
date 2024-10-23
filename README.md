@@ -46,6 +46,8 @@ Audio Sep is a big model for the separation audio with natural language queries 
 
 The model has two checkpoint, one for the text query and the other for the suorce separation, the first in  `.pt` and the second in  `.ckpt` .
 ### Discussion about the quality of the output
+#### Files used for the evatulation 
+You can see the [demo-page](https://audio-agi.github.io/Separate-Anything-You-Describe/) of the original project and here you can find other examples in  `.wav`  that I tested.
 #### Using for songs and soundtrack (Voice and instruments)
 I tested Audio Sep in a lot of cases even the same audio and I found myself in front of a really particular model. I included in my evaluation both songs and soundtracks with reverbs and other effects while trying to understand how the structure of the text query works best. 
 
