@@ -19,7 +19,7 @@ Install the dependences in the file `requirements.txt`  (I used Python 3.10, but
 pip install -r requirements.txt 
 ```
 
-Create the folder `/checkpoint` and download the checkpoint in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint).
+Create the folder `/checkpoint` and download the checkpoints in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint).
 ## Using
 ### For the pipiline
 * run the file  `pipiline.py`  changing the files path and the text query
@@ -66,7 +66,7 @@ Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks th
 
 What I found in my tests is that Audio Sep is a model that relies heavily on the spectrum of audio sources, so it looks more at their spectrographic form by matching training patterns to those present in the input audio. 
 
-What is promising, however, is that, except in extreme cases where through special effects two different musical instruments have the same spectrum, Audio Sep never removes the pattern described in the text query but finds difficulties especially in complex tracks with many different sound sources when trying to separate the required pattern but fails to do so clearly and therefore often includes other sound sources together to the pattern of the text query.
+What is promising, however, is that, except in extreme cases where through special effects two different musical instruments have the same spectrum, Audio Sep never removes the pattern described in the text query and does not create large distortions but finds difficulties especially in complex tracks with many different sound sources when trying to separate the required pattern but fails to do so clearly and therefore often includes other sound sources together to the pattern of the text query.
 ### Audio Sep could with more focused training manage musical instruments better?
 
 
