@@ -55,5 +55,18 @@ I then went to the soundtracks, I tested a track with percussion, violins and ot
 Then I separated also tracks simpler with a bell and violins and typing "bell" did a great job. 
 Finally I tried to separate the first seconds of "A Fistful of Dollars" and both the guitar and the whistle were separated very effectively.
 #### Using for ambient sounds
+For the ambient sounds instead I tried to reproduce with other cases the examples of the official demo, I started for example with a simple recording in the open air containing the verse of a pheasant mixed with noise and wanted to separate the pheasant. From here I understood immediately one thing: I typed "pheasant" and did not recognize the corresponding pattern but, since the sound is similar to the verse of a rooster, I typed "bantam" and separated it well working as an excellent denoiser.
+
+Then I switched to a similar recording but with the presence of other sound sources (farm noises) along with the pheasant’s verse and had difficulty separating the sound because it was not prevalent over the rest. Finally I went to tracks of people talking recorded with the phone and I took the opportunity to see if indeed the model can separate sound events described in succession.
+
+I must say that overall the only problem is the sharpness of the separation, for the rest it can recognize the tone of the person (whether it is man or woman) and recognize events in succession only if they are described in detail by associating an event with a single sound on the spectrogram.
+
 ## Conclusion
-This model seems work with easy mixiture or also like a "denoiser", because it don't make destortion.
+Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) But the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each musical instrument .
+
+What I found in my tests is that Audio Sep is a model that relies heavily on the spectrum of audio sources, so it looks more at their spectrographic form by matching training patterns to those present in the input audio. 
+
+What is promising, however, is that, except in extreme cases where through special effects two different musical instruments have the same spectrum, Audio Sep never removes the pattern described in the text query but finds difficulties especially in complex tracks with many different sound sources when trying to separate the required pattern but fails to do so clearly and therefore often includes other sound sources together to the pattern of the text query.
+### Audio Sep could with more focused training manage musical instruments better?
+
+
