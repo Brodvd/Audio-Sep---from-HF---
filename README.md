@@ -36,6 +36,7 @@ inference(model, audio_file, text, output_file, device, use_chunk=True)
 * run the file  `app.py`
 * copy the link that will be appear in the debug on a browser
 * use the model online (like Huggin Face)
+
 Obviously the same of the chunk-based inference if you want to have more speed.
 ## My personal valutation
 ### Description of the model
