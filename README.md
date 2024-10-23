@@ -67,6 +67,35 @@ Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks th
 What I found in my tests is that Audio Sep is a model that relies heavily on the spectrum of audio sources, so it looks more at their spectrographic form by matching training patterns to those present in the input audio. 
 
 What is promising, however, is that, except in extreme cases where through special effects two different musical instruments have the same spectrum, Audio Sep never removes the pattern described in the text query and does not create large distortions but finds difficulties especially in complex tracks with many different sound sources when trying to separate the required pattern but fails to do so clearly and therefore often includes other sound sources together to the pattern of the text query.
+
 ### Audio Sep could with more focused training manage musical instruments better?
+Nice question, the pre-trained model today in the case of a recording with 4 different patterns more or less constant separates the required pattern quite well even if not clearly, but if we take this talk about musical instruments is a bit different: Musical instruments are not an open domain, or rather they are not infinite as ambient sounds, so the way of training also changes.
+
+ My answer is yes, because taking all the musical instruments you could each look for many audio tracks to cover many different situations and mix them together so that the training is focused on the separation of an orchestra.
+ 
+Small addition: the output file of this model is in mono format but if you break with audacity the stereo file into two mono channels and have them processed separately to Audio Sep, recomposing them you get back the separate stereo file.
+
+
+## Cite the work done by Audio-Agi
+
+If you found this tool useful, please consider citing
+```bibtex
+@article{liu2023separate,
+  title={Separate Anything You Describe},
+  author={Liu, Xubo and Kong, Qiuqiang and Zhao, Yan and Liu, Haohe and Yuan, Yi, and Liu, Yuzhuo, and Xia, Rui and Wang, Yuxuan, and Plumbley, Mark D and Wang, Wenwu},
+  journal={arXiv preprint arXiv:2308.05037},
+  year={2023}
+}
+```
+```bibtex
+@inproceedings{liu22w_interspeech,
+  title={Separate What You Describe: Language-Queried Audio Source Separation},
+  author={Liu, Xubo and Liu, Haohe and Kong, Qiuqiang and Mei, Xinhao and Zhao, Jinzheng and Huang, Qiushi, and Plumbley, Mark D and Wang, Wenwu},
+  year=2022,
+  booktitle={Proc. Interspeech},
+  pages={1801--1805},
+}
+```
+
 
 
