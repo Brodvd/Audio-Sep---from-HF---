@@ -5,7 +5,7 @@ This work is be take from [Audio Sep](https://github.com/Audio-AGI/AudioSep) and
 
 ![results](https://github.com/user-attachments/assets/b4b82f04-8cbe-4ddb-a45e-3cdcba4d74a3)
 
-## Setup
+## Setup (for Windows)
 Go to command prompt, navigate like this:
 ```shell
 cd documents
@@ -73,7 +73,7 @@ What is promising, however, is that, except in extreme cases where through speci
 ### Audio Sep could with more focused training manage musical instruments better?
 Nice question, the pre-trained model today in the case of a recording with 4 different patterns more or less constant separates the required pattern quite well even if not clearly, but if we take this talk about musical instruments is a bit different: Musical instruments are not an open domain, or rather they are not infinite as ambient sounds, so the way of training also changes.
 
- My answer is yes, because taking all the musical instruments you could each look for many audio tracks to cover many different situations and mix them together so that the training is focused on the separation of an orchestra.
+ My answer is yes, because taking all the musical instruments you could each look for many audio tracks to cover many different situations and mix them together so that the training is focused on the separation of an orchestra, like the training done for a stems-separation model.
  
 Small addition: the output file of this model is in mono format but if you break with audacity the stereo file into two mono channels and have them processed separately to Audio Sep, recomposing them you get back the separate stereo file.
 
