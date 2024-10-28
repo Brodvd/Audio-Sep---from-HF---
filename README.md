@@ -56,12 +56,17 @@ So I tried to work a song with the usual stems (vocals, drums, bass, guitar) and
 I then went to the soundtracks, I tested a track with percussion, violins and other things, I typed "percussion" and I did not get a clear separation from the other suorces but the percussion remained similar; instead I tried with the same track to type "piano" and had better results on the percussion instrument. 
 Then I separated also tracks simpler with a bell and violins and typing "bell" did a great job. 
 Finally I tried to separate the first seconds of "A Fistful of Dollars" and both the guitar and the whistle were separated very effectively.
+
+![image](https://github.com/user-attachments/assets/95d9abae-df97-4bbf-9512-39d3cf41220f)
+
 #### Behaviour for ambient sounds
 For the ambient sounds instead I tried to reproduce with other cases the examples of the official [demo](https://audio-agi.github.io/Separate-Anything-You-Describe/), I started for example with a simple recording in the open air containing the verse of a pheasant mixed with noise and wanted to separate the pheasant. From here I understood immediately one thing: I typed "pheasant" and did not recognize the corresponding pattern but, since the sound is similar to the verse of a rooster, I typed "bantam" and separated it well working as an excellent denoiser.
 
 Then I switched to a similar recording but with the presence of other sound sources (farm noises) along with the pheasant’s verse and had difficulty separating the sound because it was not prevalent over the rest. Finally I went to tracks of people talking recorded with the phone and I took the opportunity to see if indeed the model can separate sound events described in succession.
 
 I must say that overall the only problem is the sharpness of the separation, for the rest it can recognize the tone of the person (whether it is man or woman) and recognize events in succession only if they are described in detail by associating an event with a single sound on the spectrogram.
+
+![image](https://github.com/user-attachments/assets/0a56c3dc-de00-4ac7-99ca-8698627dd704)
 
 #### How to give and use the text query of Audio Sep?
 
