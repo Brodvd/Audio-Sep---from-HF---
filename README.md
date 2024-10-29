@@ -78,7 +78,7 @@ The operation of the model is definitely influenced by the training since every 
 Moreover, although it was trained on large datasets to simulate the open domain, it was “basic” training since the model works best if you generalize the text query (e.g. instead of “owl” write “bird” or instead of “gong” write “percussion” or “bell”).
 
 ## Conclusion
-Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) But the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each musical instrument .
+Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) but the mistake one can make when using this model is to regard it as a popular stem separator, but this is not the same thing, infact the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each musical instrument .
 
 What I found in my tests is that Audio Sep is a model that relies heavily on the spectrum of audio sources, so it looks more at their spectrographic form by matching training patterns to those present in the input audio. 
 
