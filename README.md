@@ -72,7 +72,7 @@ I must say that overall the only problem is the sharpness of the separation, for
 ![image](https://github.com/user-attachments/assets/0a56c3dc-de00-4ac7-99ca-8698627dd704)
 
 #### How to give and use the text query of Audio Sep?
-The text query can vary a lot, from simple "guitar" to more complex requests like "a door that slams and then closes", and there is generally a right and wrong, each case is a bit 'to itself. 
+The text query can vary a lot, from simple "guitar" to more complex requests like "a door that slams and then closes", and there isn't generally a right and wrong, each case is a bit 'to itself. 
 
 The operation of the model is definitely influenced by the training since every track has been tagged but obviously the text query of Audio Sep cannot be compared to Chat Gpt.
 Moreover, although it was trained on large datasets to simulate the open domain, it was “basic” training since the model works best if you generalize the text query (e.g. instead of “owl” write “bird” or instead of “gong” write “percussion” or “bell”).
