@@ -91,6 +91,8 @@ Nice question, the pre-trained model today in the case of a recording with 4 dif
  
 Small addition: the output file of this model is in mono format but if you break with audacity the stereo file into two mono channels and have them processed separately to Audio Sep, recomposing them you get back the separate stereo file.
 
+## Discussion
+If you have any problems/discussions about Audio Sep open a problem in this repository.
 
 ## Cite the work done by Audio-Agi
 
