@@ -59,6 +59,9 @@ Finally I tried to separate the first seconds of "A Fistful of Dollars" and both
 
 ![image](https://github.com/user-attachments/assets/95d9abae-df97-4bbf-9512-39d3cf41220f)
 
+![image](https://github.com/user-attachments/assets/dac570b8-a9db-433d-aa68-2fb0506b9457)
+
+
 #### Behaviour for ambient sounds
 For the ambient sounds instead I tried to reproduce with other cases the examples of the official [demo](https://audio-agi.github.io/Separate-Anything-You-Describe/), I started for example with a simple recording in the open air containing the verse of a pheasant mixed with noise and wanted to separate the pheasant. From here I understood immediately one thing: I typed "pheasant" and did not recognize the corresponding pattern but, since the sound is similar to the verse of a rooster, I typed "bantam" and separated it well working as an excellent denoiser.
 
@@ -69,6 +72,10 @@ I must say that overall the only problem is the sharpness of the separation, for
 ![image](https://github.com/user-attachments/assets/0a56c3dc-de00-4ac7-99ca-8698627dd704)
 
 #### How to give and use the text query of Audio Sep?
+The text query can vary a lot, from simple "guitar" to more complex requests like "a door that slams and then closes", and there is generally a right and wrong, each case is a bit 'to itself. 
+
+The operation of the model is definitely influenced by the training since every track has been tagged but obviously the text query of Audio Sep cannot be compared to Chat Gpt.
+Moreover, although it was trained on large datasets to simulate the open domain, it was “basic” training since the model works best if you generalize the text query (e.g. instead of “owl” write “bird” or instead of “gong” write “percussion” or “bell”).
 
 ## Conclusion
 Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) But the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each musical instrument .
