@@ -40,7 +40,7 @@ inference(model, audio_file, text, output_file, device, use_chunk=True)
 Obviously the same of the chunk-based inference if you want to have more speed.
 ## My personal valutation
 ### Description of the model
-Audio Sep is a big model for the separation audio with natural language queries :
+AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep has two key components: a text encoder and a separation model :
 
 ![image](https://github.com/user-attachments/assets/f383bf96-5c91-4fd7-9e2e-4be340eb5f47)
 
