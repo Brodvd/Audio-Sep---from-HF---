@@ -5,6 +5,8 @@ This work is be take from [Audio Sep](https://github.com/Audio-AGI/AudioSep) and
 
 ![results](https://github.com/user-attachments/assets/b4b82f04-8cbe-4ddb-a45e-3cdcba4d74a3)
 
+<hr>
+
 ## Setup
 Go to command prompt, navigate like this:
 ```shell
@@ -20,6 +22,9 @@ pip install -r requirements.txt
 ```
 
 Create the folder `/checkpoint` and download the checkpoints in the folder from [here](https://huggingface.co/spaces/BroDvd/AudioSep/tree/main/checkpoint).
+
+<hr>
+
 ## Using
 ### For the pipiline
 * run the file  `pipiline.py`  changing the files path and the text query
@@ -31,13 +36,15 @@ NOTE: this model use lot of memory of the computer, so for the old laptop like m
 ```shell
 inference(model, audio_file, text, output_file, device, use_chunk=True)
 ```
-
 ### Demo Gradio
 * run the file  `app.py`
 * copy the link that will be appear in the debug on a browser
 * use the model online (like Huggin Face)
 
 Obviously the same of the chunk-based inference if you want to have more speed.
+
+<hr>
+
 ## My personal valutation
 ### Description of the model
 AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep has two key components: a text encoder and a separation model :
