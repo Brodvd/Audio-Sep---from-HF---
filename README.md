@@ -52,7 +52,7 @@ AudioSep is a foundation model for open-domain sound separation with natural lan
 ![image](https://github.com/user-attachments/assets/f383bf96-5c91-4fd7-9e2e-4be340eb5f47)
 
 The model has two checkpoint, one for the text query and the other for the suorce separation, the first in  `.pt` and the second in  `.ckpt` .
-### Discussion about the quality of the output
+### Discussion about the quality of the output of this checkpoint 
 #### Files used for the evatulation 
 You can see the [demo-page](https://audio-agi.github.io/Separate-Anything-You-Describe/) of the original project and [here](https://github.com/Brodvd/Audio-Sep---from-HF---/tree/Exemples-.wav/examples/My%20examples) you can find other examples in  `.wav`  that I tested.
 #### Behaviour for songs and soundtrack (Voice and instruments)
