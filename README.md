@@ -45,6 +45,11 @@ Obviously the same of the chunk-based inference if you want to have more speed.
 
 <hr>
 
+## Training
+Go here to find the instructions for the training of Audio Sep.
+
+<hr>
+
 ## My personal valutation
 ### Description of the model
 AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep has two key components: a text encoder and a separation model :
