@@ -43,8 +43,6 @@ inference(model, audio_file, text, output_file, device, use_chunk=True)
 
 Obviously the same of the chunk-based inference if you want to have more speed.
 
-<hr>
-
 ## Training
 Go [here](https://github.com/Brodvd/Audio-Sep---from-HF---/blob/Check-train-files/Training.md) to find the instructions for the training of Audio Sep.
 
