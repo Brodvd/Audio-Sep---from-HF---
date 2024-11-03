@@ -27,7 +27,7 @@ Create the folder `/checkpoint` and download the checkpoints in the folder from 
 
 ## Using
 ### For the pipiline
-* run the file  `pipiline.py`  changing the files path and the text query
+* run the file  `pipiline.py`  changing the files path and the text query (I recommend using the folder `/audio` )
   * the file input should be in 32000 KHz, format  `.wav`
   * the file output will be in mono format
 
