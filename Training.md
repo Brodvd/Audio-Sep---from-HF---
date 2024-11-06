@@ -1,7 +1,7 @@
 # Training
 To utilize your audio-text paired dataset:
 
-1. Format your dataset to match our JSON structure. Refer to the provided template at `datafiles/template.json`.
+1. Format your dataset to match our JSON structure in  `datafiles/template.json` like this:
 
 2. Update the `config/audiosep_base.yaml` file by listing your formatted JSON data files under `datafiles`. For example:
 
