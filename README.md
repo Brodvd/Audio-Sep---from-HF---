@@ -27,7 +27,7 @@ Create the folder `/checkpoint` and download the checkpoints in the folder from 
 
 ## Using
 ### For the pipiline
-* run the file  `pipiline.py`  changing the files path and the text query
+* run the file  `pipiline.py`  changing the files path and the text query (I recommend using the folder `/audio` )
   * the file input should be in 32000 KHz, format  `.wav`
   * the file output will be in mono format
 
@@ -42,6 +42,9 @@ inference(model, audio_file, text, output_file, device, use_chunk=True)
 * use the model online (like Huggin Face)
 
 Obviously the same of the chunk-based inference if you want to have more speed.
+
+## Training
+Go [here](https://github.com/Brodvd/Audio-Sep---from-HF---/blob/Check-train-files/Training.md) to find the instructions for the training of Audio Sep.
 
 <hr>
 
@@ -84,8 +87,10 @@ The text query can vary a lot, from simple "guitar" to more complex requests lik
 The operation of the model is definitely influenced by the training since every track has been tagged but obviously the text query of Audio Sep cannot be compared to Chat Gpt.
 Moreover, although it was trained on large datasets to simulate the open domain, it was “basic” training since the model works best if you generalize the text query (e.g. instead of “owl” write “bird” or instead of “gong” write “percussion” or “bell”).
 
+In summary the best method to use Audio Sep is to generalize the text query based on the spectrophogram characteristics.
+
 ## Conclusion
-Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) but the mistake one can make when using this model is to regard it as a popular stem separator, but this is not the same thing, infact the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each musical instrument .
+Audio Sep has been trained on thousands of tagged YouTube clips, so on tracks that handle the open domain but definitely simpler than a soundtrack. In fact this model has great capacity of separation on audio tracks recorded in environment (typical case with some sound source prevailing and mixed noise in the background) but the mistake one can make when using this model is to regard it as a popular stem separator, but this is not the same thing, infact the training also explains that it is not focused on separating voices or musical instruments strictly as they need (voice especially) very detailed training files for each pattern.
 
 What I found in my tests is that Audio Sep is a model that relies heavily on the spectrum of audio sources, so it looks more at their spectrographic form by matching training patterns to those present in the input audio. 
 
@@ -94,7 +99,7 @@ What is promising, however, is that, except in extreme cases where through speci
 ### Audio Sep could with more focused training manage musical instruments better?
 Nice question, the pre-trained model today in the case of a recording with 4 different patterns more or less constant separates the required pattern quite well even if not clearly, but if we take this talk about musical instruments is a bit different: Musical instruments are not an open domain, or rather they are not infinite as ambient sounds, so the way of training also changes.
 
- My answer is yes, because taking all the musical instruments it could each look for many audio tracks to cover many different situations and mix them together so that the training is focused on the separation of an orchestra, like the training done for a stems-separation model.
+So maybe yes, because taking a lot of the musical instruments it could each look for many audio tracks to cover many different situations and mix them together so that the training is focused on the separation of an orchestra, like the training done for a stems-separation model.
  
 Small addition: the output file of this model is in mono format but if you break with audacity the stereo file into two mono channels and have them processed separately to Audio Sep, recomposing them you get back the separate stereo file.
 
