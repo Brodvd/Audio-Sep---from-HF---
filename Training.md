@@ -3,7 +3,18 @@ To utilize your audio-text paired dataset:
 
 1. Format your dataset to match our JSON structure in  `datafiles/template.json` like this:
 
-2. Update the `config/audiosep_base.yaml` file by listing your formatted JSON data files under `datafiles`. For example:
+```yaml
+{
+    "data": [
+     {
+      "wav": "path_to_audio_file",
+      "caption": "textual_desciptions"
+     }
+    ]
+}
+```
+
+3. Update the `config/audiosep_base.yaml` file by listing your formatted JSON data files under `datafiles` if you used more  `.json` . For example:
 
 ```yaml
 data:
