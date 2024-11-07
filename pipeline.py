@@ -59,9 +59,9 @@ if __name__ == '__main__':
         checkpoint_path='checkpoint/audiosep_base_4M_steps.ckpt', 
         device=device)
 
-    audio_file = './assets/input.wav'
+    audio_file = './audio/input/audio.wav'
     text = 'guitar'
-    output_file='./assets/separated_audio.wav'
+    output_file='./audio/output/separated_audio.wav'
     
     inference(model, audio_file, text, output_file, device)
 
