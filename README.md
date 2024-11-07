@@ -54,7 +54,9 @@ Go [here](https://github.com/Brodvd/Audio-Sep---from-HF---/blob/main/Training.md
 ### Description of the model
 AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep has two key components: a text encoder and a separation model :
 
-![image](https://github.com/user-attachments/assets/f383bf96-5c91-4fd7-9e2e-4be340eb5f47)
+<p align="center">
+  <img align="middle" width="800" src="assets/AudioSep.png"/>
+</p>
 
 The model has two checkpoint, one for the text query and the other for the suorce separation, the first in  `.pt` and the second in  `.ckpt` .
 ### Discussion about the quality of the output of this checkpoint 
