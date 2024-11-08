@@ -1,12 +1,4 @@
 ## My personal valutation
-### Description of the model
-AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep has two key components: a text encoder and a separation model :
-
-<p align="center">
-  <img align="middle" width="800" src="assets/AudioSep.png"/>
-</p>
-
-The model has two checkpoint, one for the text query and the other for the suorce separation, the first in  `.pt` and the second in  `.ckpt` .
 ### Discussion about the quality of the output of this checkpoint 
 #### Files used for the evatulation 
 You can see the [demo-page](https://audio-agi.github.io/Separate-Anything-You-Describe/) of the original project and [here](https://github.com/Brodvd/Audio-Sep---from-HF---/tree/Exemples-.wav/examples/My%20examples) you can find other examples in  `.wav`  that I tested.
