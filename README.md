@@ -62,6 +62,8 @@ The model has two checkpoint, one for the text query and the other for the suorc
 ### Discussion about the quality of the output of this checkpoint 
 If you want to see my valutation of Audio Sep go --> [here](https://github.com/Brodvd/Audio-Sep---from-HF---/blob/main/Valutation.md).
 
+<hr>
+
 ## Discussion
 If you have any problems/discussions about Audio Sep open a problem in this repository.
 
