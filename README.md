@@ -1,5 +1,8 @@
 # Audio-Sep-from-Huggin-Face-
 ## Separate "Anything" You Describe
+
+[![Hugging Face Spaces](https://huggingface.co/spaces/BroDvd/AudioSep)
+
 This work is be take from [Audio Sep](https://github.com/Audio-AGI/AudioSep) and a [demo HF](https://huggingface.co/spaces/Suniilkumaar/AudioSep) of the same model.
 # NOTE: This is an anofficial implementation of [Audio Sep](https://github.com/Audio-AGI/AudioSep), but this work without Miniconda :)
 
