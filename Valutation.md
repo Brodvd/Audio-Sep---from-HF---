@@ -1,4 +1,4 @@
-## My personal valutation
+## My personal valutation (still in progress)
 ### Discussion about the quality of the output of this checkpoint 
 #### Files used for the evatulation 
 You can see the [demo-page](https://audio-agi.github.io/Separate-Anything-You-Describe/) of the original project and [here](https://github.com/Brodvd/Audio-Sep---from-HF---/tree/Exemples-.wav/examples/My%20examples) you can find other examples in  `.wav`  that I tested.
